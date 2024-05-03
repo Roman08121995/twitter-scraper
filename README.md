@@ -90,7 +90,7 @@ python twitter_selenium.py method=3 tweetID=1745996828724847009
 ## Note
 - This is to set up the chrome driver in such a way that logging in is not required.
 - If you want to use your google profile that already has twitter logged in. Then open the twitter_selenium script and update the following path with your own path:
-- `options.add_argument(r'user-data-dir=C:\Users\Mubashir Ali\AppData\Local\Google\Chrome\User Data')`
+- `options.add_argument(r'user-data-dir=C:\Users\Wilson\AppData\Local\Google\Chrome\User Data')`
 - Add the profile number in which the twitter account is logged in.
 - `options.add_argument(r'profile-directory=Profile 3')`
 - You can check your path by adding the follwing command in chrome address bar:
